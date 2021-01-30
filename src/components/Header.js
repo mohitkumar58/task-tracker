@@ -1,16 +1,14 @@
 import PropTypes from 'prop-types'
+import logo from "../images/logo.png"
 import Button from "./Button"
 
-const Header = ({ title }) => {
-
-    const onClick = () => {
-        console.log("CLick")
-    }
+const Header = ({ title, onAddToggle, showAddTask }) => {
 
     return (
         <header className="header">
+            <img src={logo} alt="" />
             <h1>{title}</h1>
-            <Button onClick={onClick} />
+            <Button onClick={onAddToggle} color={showAddTask ? "red": "black"} text={showAddTask ? "Close" : "Add"} />
         </header>
     )
 }
