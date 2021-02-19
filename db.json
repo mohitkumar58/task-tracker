@@ -4,13 +4,13 @@
       "id": 1,
       "text": "Doctor Appointment",
       "day": "Feb 5th at 3:00 pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 2,
       "text": "Office Meeting",
       "day": "Jan 30th at 7:00 pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "text": "Vollyball",
